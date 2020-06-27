@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "rONpeYDY77gEOJQaT05UyHGhGEUsuai4L8x8lKntDXZGK7VwvPx97znoh3pTNTF3P/9daGKE4kW2GojH7pjqqA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\edu21\\source\\repos\\tpn9-HectorEduardoFaciano\\ConversorMorse\\ConversorMorse\\ConversorMorse.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\edu21\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

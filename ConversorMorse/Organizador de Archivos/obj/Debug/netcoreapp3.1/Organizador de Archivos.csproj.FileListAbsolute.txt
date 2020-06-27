@@ -1,0 +1,13 @@
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\bin\Debug\netcoreapp3.1\Organizador de Archivos.exe
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\bin\Debug\netcoreapp3.1\Organizador de Archivos.deps.json
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\bin\Debug\netcoreapp3.1\Organizador de Archivos.runtimeconfig.json
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\bin\Debug\netcoreapp3.1\Organizador de Archivos.runtimeconfig.dev.json
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\bin\Debug\netcoreapp3.1\Organizador de Archivos.dll
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\bin\Debug\netcoreapp3.1\Organizador de Archivos.pdb
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\obj\Debug\netcoreapp3.1\Organizador de Archivos.csprojAssemblyReference.cache
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\obj\Debug\netcoreapp3.1\Organizador de Archivos.AssemblyInfoInputs.cache
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\obj\Debug\netcoreapp3.1\Organizador de Archivos.AssemblyInfo.cs
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\obj\Debug\netcoreapp3.1\Organizador de Archivos.csproj.CoreCompileInputs.cache
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\obj\Debug\netcoreapp3.1\Organizador de Archivos.dll
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\obj\Debug\netcoreapp3.1\Organizador de Archivos.pdb
+C:\Users\edu21\source\repos\tpn9-HectorEduardoFaciano\ConversorMorse\Organizador de Archivos\obj\Debug\netcoreapp3.1\Organizador de Archivos.genruntimeconfig.cache
