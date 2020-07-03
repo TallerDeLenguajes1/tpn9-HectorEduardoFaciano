@@ -17,6 +17,7 @@ namespace ConversorMorse
             string dir = Helpers.SoporteParaConfiguracion.LeerConfiguracion(nombre_archivo);
             foreach (string archi in Directory.GetFiles(direccion))
             {
+                Console.WriteLine("\n" + archi);
                 if (archi.EndsWith(".txt") || archi.EndsWith(".mp3"))
                 {
                     try

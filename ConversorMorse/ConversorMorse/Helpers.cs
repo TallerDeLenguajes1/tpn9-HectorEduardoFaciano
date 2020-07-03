@@ -68,10 +68,13 @@ namespace Helpers
             return texto;
         }
     
-        public static void CrearMorse(string ubicacion, string nombre, string contenido)
+        public static void CrearArchivo(string Direccion, string nombre, string contenido)
         {
-            Directory.CreateDirectory(ubicacion);
-            FileStream archivo = new FileStream(ubicacion + nombre, FileMode.Create);
+            if (!Directory.Exists(Direccion))
+            {
+                Directory.CreateDirectory(Direccion);
+            }
+            FileStream archivo = new FileStream(nombre, FileMode.Create);
             StreamWriter stream = new StreamWriter(archivo);
             stream.Write(contenido);
             stream.Close();

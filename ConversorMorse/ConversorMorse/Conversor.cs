@@ -8,9 +8,12 @@ namespace ConversorMorse
     {
         static void Main(string[] args)
         {
-            string direccion_final = "./Mover/";
-            string direccion_inicial = "./ ";
-            string fileName = "destino.dat";
+            DateTime now = DateTime.Now;
+            string fecha = now.ToString("dd-MM-yyyy");
+            string direccion = Directory.GetCurrentDirectory();
+            string directorio = direccion + @"/Morse/ ";
+            string fileName = directorio + "texto.txt";
+            string fileNameMorse = directorio + "morse_" + fecha + ".txt";
                         
             string cadena;
             //ingreso una cadena de caracteres
@@ -19,12 +22,14 @@ namespace ConversorMorse
             //convierto la cadena a codigo morse
             string textAmorse = Helpers.ConversorDeMorse.TextoAMorse(cadena);
             Console.WriteLine("Codigo Morse guardado: " + textAmorse);
-            //almaceno la cadena de texto en el archivo destino.dat
-            Helpers.ConversorDeMorse.CrearMorse(direccion_inicial, fileName, cadena);
-            string nuevaCad = Helpers.ConversorDeMorse.LeerMorse(fileName);
-            Console.WriteLine("Codigo convertido nuevamente a texto: " + nuevaCad);
+            //almaceno la cadena de texto en el archivo fileNameMorse
+            Helpers.ConversorDeMorse.CrearArchivo(directorio, fileNameMorse, textAmorse);
+            string nuevaCad = Helpers.ConversorDeMorse.LeerMorse(fileNameMorse);
+            string morseAtext = Helpers.ConversorDeMorse.MorseATexto(nuevaCad);
+            Console.WriteLine("Codigo convertido a texto: " + morseAtext);
+            Helpers.ConversorDeMorse.CrearArchivo(directorio, fileName, morseAtext);
             FileInfo ruta = new FileInfo(fileName);
-            Console.WriteLine("Revisar archivos guardados en: " + ruta.Directory);
+            Console.WriteLine("Archivos guardados en: " + ruta.Directory);
         }
     }
 }
